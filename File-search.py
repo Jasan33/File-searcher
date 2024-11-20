@@ -9,8 +9,9 @@ for line in fopner:
     words = line.split()
     if content in line: # Når linjen med det brukeren skrev matcher
         count += 1
-        print("The word is in the", line_number, "line number")
+        ()
         for word in words:
             if word == content:
-                print ("there were", count, content, "lines from", fname, "at position", words.index(word) + 1)
+                print ("It is a",'"' + content + '"', "at line number", line_number, "at position", words.index(word) + 1, "from", fname)
+print("There was", count, '"' + content + '"', "in the file")
 input ("press enter to continue...")
