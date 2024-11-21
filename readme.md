@@ -28,3 +28,7 @@ I also asked my learning partner for some help and advice
 
 I later wanted to add a restart option to the code, and I followd this tutorial
 https://www.youtube.com/watch?v=SZdQX4gbql0&ab_channel=MrLauLearning
+
+As of the last day I wanted to add some variables and make the user able to choose from 2 options
+I used my previous python knowledge from "telefonkatalog" and made 2 different selections 
+that the user can choose from.
