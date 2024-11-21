@@ -14,13 +14,17 @@ It can be any type of file or directory
 4. Wait for the results to show up
 ```
 # How I coded it
-I started by learning how the file handling works in python and coded a basic file reader
+I started by learning how the file handling works in python.
 https://www.w3schools.com/python/python_file_handling.asp
 
 After that I followed a tutorial where I learned how a basic file seacher works.
 https://www.youtube.com/watch?v=icdb5EFzwtc&ab_channel=ArsenioScott
 
-The problem was that in the video it shows you how you can make a searcher for databases that atleast has 3 colums
-I wanted it to able to find any word from any file. 
+In the video, he shows you how you can make a word searcher for databases that atleast has 3 colums
+I wanted to make a script that was able to find any word from any file. 
 
-So I started coding on my own and figured it out after 1-2 days.
+I than started coding on my own and made something work after 1-2 days with the code I had.
+I also asked my learning partner for some help and advice
+
+I later wanted to add a restart option to the code, and I followd this tutorial
+https://www.youtube.com/watch?v=SZdQX4gbql0&ab_channel=MrLauLearning
