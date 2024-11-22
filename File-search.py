@@ -32,7 +32,7 @@ def find_word_cordinates():
             for word in words: # for alle ord i ord-linjen
                 if word == content:
                     count += 1
-                    print ("It is a",'"' + content + '"', "at line number", line_number, "after", words.index(word) + 1, "words from the start line")
+                    print ("It is a",'"' + content + '"', "at line number", line_number, "after", words.index(word) + 1, "word(s) from the line")
 
 def find_word_amount():
     fname = input ("Enter a file name: ") 
@@ -56,4 +56,6 @@ restart = input ("Do you want to seach again? (y/n): ")
 if restart == "y":
     start()
 else:
-    exit() # avslutter 
+    exit() # avslutter
+
+input ("Press enter to continue...")
